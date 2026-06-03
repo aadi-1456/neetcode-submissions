@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // HashMap (One Pass Loop)
     vector<int> twoSum(vector<int>& nums, int target) {
         unordered_map<int,int> mp;
         int n=nums.size();
